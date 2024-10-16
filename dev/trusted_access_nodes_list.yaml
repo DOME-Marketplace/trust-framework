@@ -1,0 +1,5 @@
+organizations:
+  - name: DOME
+    publicKey: 0x047b112db5dea06fa3b7d392ee86dd065650fef00a9b4a5ba98d880d4508fa7d19123da9f4779cd0a68ce5a03e1f6a3fa9fc6e270280f3c83e46885c3ea2f077d2
+    url: https://desmos.dome-marketplace-dev2.org
+    dlt_address:

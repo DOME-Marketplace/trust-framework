@@ -1,0 +1,11 @@
+#clients:
+#    - clientId: ""
+#      redirectUris: []
+#      scopes: []
+#      clientAuthenticationMethods: ""
+#      authorizationGrantTypes: ""
+#      postLogoutRedirectUris: []
+#      requireAuthorizationConsent: false
+#      requireProofKey: false
+#      jwkSetUrl: ""
+#      tokenEndpointAuthenticationSigningAlgorithm: ""

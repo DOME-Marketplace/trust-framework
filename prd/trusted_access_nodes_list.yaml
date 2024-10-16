@@ -1,0 +1,5 @@
+organizations:
+  - name: DOME
+    publicKey: 0
+    url: https://desmos.dome-markteplace-prd.org
+    dlt_address:
