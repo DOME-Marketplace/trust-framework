@@ -7,3 +7,7 @@ organizations:
     publicKey: 0x0440051e727c96f5dae8900648327c058f266d9ea58758a624781b0ae0453c1b3a90e1690c1ae30dcf7e84c97fd2061267e70634211425acfc0e57c4363e4fafe8
     url: https://desmos.dome-marketplace-lcl.org
     dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
+  - name: ENG
+    publicKey: 0x04e09816286522738db42a9dba347214513f5b49de91001e9c029246bd612aadbff12596492ee2d656d7e8ef9e47f17b82facb31726904046cb8df847345dc0de3
+    url: https://dome-dev.eng.it
+    dlt_address: 0x259b004B983eC2C530A1F94A423D5af9F21F3139
