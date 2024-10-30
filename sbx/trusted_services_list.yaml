@@ -1,7 +1,6 @@
 clients:
   - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
-    id: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
-    domain: "https://dome-marketplace-sbx.org"
+    url: "https://dome-marketplace-sbx.org"
     redirectUris: [ "https://dome-marketplace-sbx.org/auth/vc/callback" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
@@ -12,6 +11,7 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaezLhSFWRZ1zrYQRwLxV8nDWmb2REHoUf7N3qvna1TFina"
+    url: "https://issuer.dome-marketplace-sbx.org"
     redirectUris: []
     scopes: []
     clientAuthenticationMethods: ["client_secret_jwt"]
