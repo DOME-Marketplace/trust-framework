@@ -30,6 +30,8 @@ organizations:
     dlt_address: "0xb794f5ea0ba39494ce83...9613fffba74279579268"
 ```
 
+For more information on the Access Node repository, visit the [Access Node Repository](https://github.com/DOME-Marketplace/access-node).
+
 > NOTE: The `publicKey` field is the public key of the organization that is used to verify the signature of the JWT token. It is the same public key related to the EthereumAddress of the organizations used in the DLT-Adapter.
 
 > NOTE 2: The `url` must be the URL of the organization's Access Node, and it can be an IP address or a domain.
