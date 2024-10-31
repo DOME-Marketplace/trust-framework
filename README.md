@@ -2,21 +2,39 @@
 
 ## Introduction
 
-> TODO: Add a brief description of the DOME Trust Framework
+The DOME Trust Framework is a set of rules and guidelines that define the trust relationships between the different entities in the DOME network. The framework is composed of the following trusted lists:
 
 ## Trusted Lists
-* Trusted Issuers List
-* Trusted Participants List
 * Trusted Services List
-* Trusted Access Nodes List
+* Trusted Access Node Operators List
 * Trusted Schemas List
-* Revocation List
+* Revoked Credential List
+* Invalid Credentials List
 
 ## How-To Guides
 
-### How-To insert a new Access Node Participant in the Trusted Access Nodes List
+### How-To insert a new value in the Trusted Lists
 
-The directory of the Access Node contains the public data of the organizations that are part of the DOME network. If you need more information about how you can get or create your data, please, follow the [Access Node Guide](https://github.com/DOME-Marketplace/access-node/blob/main/README.md) 
+1. Fork the repository
+2. Select the environment you want to add the organization to
+3. Edit the YAML file adding your values
+4. Create a pull request
+5. Wait for the pull request to be approved → This will need to be verified by the DOME Operator.
+6. If the pull request is approved, the data will be added to the directory
+
+### Which data is needed to set a new entry into the Trusted Services List?
+
+### Which data is needed to set a new entry into the Trusted Invalid Credentials List?
+
+You need to add the Verifiable Credential ID that you want to invalidate.
+
+### Which data is needed to set a new entry into the Trusted Revoked Credentials List?
+
+You need to add the Verifiable Credential ID that you want to invalidate.
+
+### Which data is needed to set a new entry into the Trusted Access Node Operators List?
+
+The directory of the Access Node contains the public data of the organizations that are part of the DOME network. If you need more information about how you can get or create your data, please, follow the [Access Node Guide](https://github.com/DOME-Marketplace/access-node/blob/main/README.md)
 The data is stored in a YAML file that contains the following information:
 ```yaml
 organizations:
@@ -36,10 +54,4 @@ organizations:
 
 > NOTE 3: The `dlt_address`must be the Ethereum Address of the organization's Access Node.
 
-#### Steps:
-1. Fork the repository
-2. Select the environment you want to add the organization to.
-3. Edit the `trusted_access_nodes_list.yaml` file within the selected environment folder.
-4. Create a pull request
-5. Wait for the pull request to be approved --> This will need to be verified by the onboarding organization.
-6. The organization will be added to the directory
+
