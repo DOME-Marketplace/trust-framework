@@ -1,6 +1,6 @@
 clients:
-  - clientId: "did:key:zDnaebfaRchCsaGPtNKd9M3cH72b91AvrG76xbACzvfb8b5Gg"
-    id: "did:key:zDnaebfaRchCsaGPtNKd9M3cH72b91AvrG76xbACzvfb8b5Gg"
+  - clientId: "did:key:zDnaeqXX5hXoHbX8dSjSdgZkzcH1Sa6RcSsvnvLZUukqFRGx9"
+    url: "https://dome-marketplace-dev2.org"
     redirectUris: [ "https://dome-marketplace-dev2.org/auth/vc/callback" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
@@ -8,9 +8,10 @@ clients:
     postLogoutRedirectUris: [ "https://dome-marketplace-dev2.org/" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaebfaRchCsaGPtNKd9M3cH72b91AvrG76xbACzvfb8b5Gg"
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeqXX5hXoHbX8dSjSdgZkzcH1Sa6RcSsvnvLZUukqFRGx9"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaez2iVgCAUXG5oP9ipBzvH2WBi2pdAwU6Jrgcqssd4LPmQ"
+    url: "https://issuer.dome-marketplace-dev2.org"
     redirectUris: []
     scopes: []
     clientAuthenticationMethods: ["client_secret_jwt"]
