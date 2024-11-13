@@ -12,6 +12,6 @@ organizations:
     url: https://dome-dev.eng.it
     dlt_address: 0x259b004B983eC2C530A1F94A423D5af9F21F3139
   - name: GOLEM
-    publicKey: 0x04d6e35ac8fad937cc632c27cd9470a265526289328228dd8c874e050ec494b8ddcb1e7fbe65a4dc7ec9decd19e84f6db435e498248f1f5e5475a19ee402a7f9d6
-    url: https://golem.at
-    dlt_address: 0x8A0f29fD2e486FF327A4F5667beD1680Cfb120BF
+    publicKey: 0x049dcbd13cf41cf4fb915e9473addc4d3295ba249329aeb46d45cf33dff501dd83c2e4a1d54ab8b727368b598af46bde8e185629bba8c783dc8737823e75cd5815
+    url: https://dome-dev.golem.at
+    dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB
