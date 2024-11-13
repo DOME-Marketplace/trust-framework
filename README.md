@@ -34,8 +34,14 @@ You need to add the Verifiable Credential ID that you want to invalidate.
 
 ### Which data is needed to set a new entry into the Trusted Access Node Operators List?
 
-The directory of the Access Node contains the public data of the organizations that are part of the DOME network. If you need more information about how you can get or create your data, please, follow the [Access Node Guide](https://github.com/DOME-Marketplace/access-node/blob/main/README.md)
-The data is stored in a YAML file that contains the following information:
+The Access Node directory contains the public data for organizations within the DOME network.
+For detailed instructions on how to collect or create your own data,
+please refer to the [How to Deploy - Previous steps](https://github.com/DOME-Marketplace/access-node#previous-steps)
+section of the Access Node Guide.
+
+The guide provides step-by-step instructions for generating your data using the 
+[DOME Access Node Key Generator](https://dome-marketplace.github.io/dome-crypto-generator/).
+The generated data is stored in a YAML file, which includes the following information:
 ```yaml
 organizations:
   - name: "Organization 1"
