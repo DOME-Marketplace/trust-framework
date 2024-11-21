@@ -3,3 +3,8 @@ organizations:
     publicKey: 0x04662e9bfc666cd061a060c7d32ead49e53ba9b0f8709046a71983ca491c48fbb0f06e7c93f97233d18007afb5481280512e3ffdf8e6fb5ae121e8f87f11a6ac64
     url: https://desmos.dome-marketplace-dev2.org
     dlt_address: 0x6CAe2e4907aD7fee38cC9eC2449595D2978E8Aa5
+
+  - name: QA
+    publicKey: 0x045a91cd7c9a4f56d90b08cf1e2948273907f0bc0e5c82c91d19eda9daa5614d9ddc75b36950feada7d90077eb5012f8ca06e11c8cb7729bda04b818165f42e81c
+    url: https://desmos.dome-marketplace-dev.org
+    dlt_address: 0xd06CB807734b52C7BDAAD2ac73c7a25656d4f5Aa
