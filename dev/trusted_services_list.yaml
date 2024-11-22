@@ -21,3 +21,14 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaez2iVgCAUXG5oP9ipBzvH2WBi2pdAwU6Jrgcqssd4LPmQ"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaeQkcsGtaeVPR2w3XxTnexaeHkYvBUWcyAKJqNNDe1gwZN"
+    url: "https://dome-marketplace-dev.org"
+    redirectUris: [ "https://dome-marketplace-dev.org/auth/vc/callback" ]
+    scopes: [ "openid_learcredential" ]
+    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    authorizationGrantTypes: [ "authorization_code" ]
+    postLogoutRedirectUris: [ "https://dome-marketplace-dev.org/" ]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeQkcsGtaeVPR2w3XxTnexaeHkYvBUWcyAKJqNNDe1gwZN"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
