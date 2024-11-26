@@ -7,6 +7,10 @@ organizations:
     publicKey: 0x0481fd5909250ed5da0c77af1469f67ab990c942a1439923dbb94fd06e68c7f0c60e75795d93dc0b6523c5d3400ae47c2a1a5ef2e8bfec45a03991e1549f870bb7
     url: https://desmos.dome-marketplace-lcl.org
     dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
+  - name: IN2-DEV-ARES
+    publicKey: 0x04edd7bb56b8eed25907bae2e4597cc7df2e1dea5802c647a01c8f24574194b399ccb07ef8e62fe4f23fa49260245033e0e91c4fe3a0e875eb6ea815c9ca6a4b96
+    url: https://desmos.dome-marketplace.dev.in2.es
+    dlt_address: 0x956a513E04725C149A89bD0808DBeE7Ec5590e4a
   - name: ENG
     publicKey: 0x0414a23b4f67f019e82298e796b32a48c6bfb928585c2262d4f05c30226935e0903041364141959a417fadb321a716457a737fe8b6e43efc94c5b4c67d34d6239c
     url: https://dome-dev.eng.it
