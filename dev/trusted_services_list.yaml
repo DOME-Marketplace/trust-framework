@@ -21,3 +21,25 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaez2iVgCAUXG5oP9ipBzvH2WBi2pdAwU6Jrgcqssd4LPmQ"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaeVSrocQuTZahbBWM6yEHBX4GJgv4JpfdKECYYYABeCPX1"
+    url: "https://dome-marketplace-dev.org"
+    redirectUris: [ "https://dome-marketplace-dev.org/auth/vc/callback" ]
+    scopes: [ "openid_learcredential" ]
+    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    authorizationGrantTypes: [ "authorization_code" ]
+    postLogoutRedirectUris: [ "https://dome-marketplace-dev.org/" ]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeVSrocQuTZahbBWM6yEHBX4GJgv4JpfdKECYYYABeCPX1"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
+    url: "https://dome-certification.dome-marketplace-dev2.org"
+    redirectUris: ["https://dome-certification.dome-marketplace-dev2.org/auth/login"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris: ["https://dome-certification.dome-marketplace-dev2.org/"]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"

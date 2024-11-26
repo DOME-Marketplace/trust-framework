@@ -24,6 +24,39 @@ The DOME Trust Framework is a set of rules and guidelines that define the trust 
 
 ### Which data is needed to set a new entry into the Trusted Services List?
 
+The trusted services list contains all the verified and authorized services within the dome ecosystem. these services have met the required standards for secure and trusted interactions. To add a new entry to the trusted services list, specific information must be provided in a yaml file, adhering to the structure outlined below.
+
+| **Field**                                       | **Description**                                                                                                                                                                                                                                                                          |
+|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **clientId**                                    | Should be a `did:key` or a unique identifier for your client. Using a `did:key` allows the verifier to obtain your public keys for signature verification without needing a separate JWKS endpoint.                                                                                      |
+| **url**                                         | The base URL of your service or application.                                                                                                                                                                                                                                             |
+| **redirectUris**                                | Must include all the URLs where you expect to receive authentication responses. These should be HTTPS URLs to ensure secure communication.                                                                                                                                               |
+| **scopes**                                      | Currently, only `openid_learcredential` is accepted. This scope allows your service to request the necessary credentials.                                                                                                                                                                |
+| **clientAuthenticationMethods**                 | Must be set to `["client_secret_jwt"]`, as this is the only supported authentication method.                                                                                                                                                                                             |
+| **authorizationGrantTypes**                     | Must be set to `["authorization_code"]`, as this is the only supported grant type.                                                                                                                                                                                                       |
+| **postLogoutRedirectUris**                      | Include URLs where users should be redirected after they log out from your service.                                                                                                                                                                                                      |
+| **requireAuthorizationConsent**                 | Set to `false` because explicit user consent is not required in this flow.                                                                                                                                                                                                               |
+| **requireProofKey**                             | Set to `false` as PKCE is not utilized.                                                                                                                                                                                                                                                  |
+| **jwkSetUrl**                                   | If you're using a `did:key` for your clientId, you do not need to provide a `jwkSetUrl` because the verifier can derive your JWKS directly from the `did:key`. However, if you're not using a unique identifier, you must provide the `jwkSetUrl` where your public keys can be fetched. |
+| **tokenEndpointAuthenticationSigningAlgorithm** | Must be set to `ES256`, as this is the only supported algorithm.                                                                                                                                                                                                                         |
+
+#### example yaml entry
+
+```yaml
+clients:
+  - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
+    url: "https://dome-marketplace-sbx.org"
+    redirectUris: ["https://dome-marketplace-sbx.org/auth/vc/callback"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris: ["https://dome-marketplace-sbx.org/"]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+```
+
 ### Which data is needed to set a new entry into the Trusted Invalid Credentials List?
 
 You need to add the Verifiable Credential ID that you want to invalidate.
@@ -34,8 +67,14 @@ You need to add the Verifiable Credential ID that you want to invalidate.
 
 ### Which data is needed to set a new entry into the Trusted Access Node Operators List?
 
-The directory of the Access Node contains the public data of the organizations that are part of the DOME network. If you need more information about how you can get or create your data, please, follow the [Access Node Guide](https://github.com/DOME-Marketplace/access-node/blob/main/README.md)
-The data is stored in a YAML file that contains the following information:
+The Access Node directory contains the public data for organizations within the DOME network.
+For detailed instructions on how to collect or create your own data,
+please refer to the [How to Deploy - Previous steps](https://github.com/DOME-Marketplace/access-node#previous-steps)
+section of the Access Node Guide.
+
+The guide provides step-by-step instructions for generating your data using the 
+[DOME Access Node Key Generator](https://dome-marketplace.github.io/dome-crypto-generator/).
+The generated data is stored in a YAML file, which includes the following information:
 ```yaml
 organizations:
   - name: "Organization 1"

@@ -7,11 +7,19 @@ organizations:
     publicKey: 0x0481fd5909250ed5da0c77af1469f67ab990c942a1439923dbb94fd06e68c7f0c60e75795d93dc0b6523c5d3400ae47c2a1a5ef2e8bfec45a03991e1549f870bb7
     url: https://desmos.dome-marketplace-lcl.org
     dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
+  - name: IN2-DEV-ARES
+    publicKey: 0x04edd7bb56b8eed25907bae2e4597cc7df2e1dea5802c647a01c8f24574194b399ccb07ef8e62fe4f23fa49260245033e0e91c4fe3a0e875eb6ea815c9ca6a4b96
+    url: https://desmos.dome-marketplace.dev.in2.es
+    dlt_address: 0x956a513E04725C149A89bD0808DBeE7Ec5590e4a
   - name: ENG
-    publicKey: 0x04e09816286522738db42a9dba347214513f5b49de91001e9c029246bd612aadbff12596492ee2d656d7e8ef9e47f17b82facb31726904046cb8df847345dc0de3
+    publicKey: 0x0414a23b4f67f019e82298e796b32a48c6bfb928585c2262d4f05c30226935e0903041364141959a417fadb321a716457a737fe8b6e43efc94c5b4c67d34d6239c
     url: https://dome-dev.eng.it
     dlt_address: 0x259b004B983eC2C530A1F94A423D5af9F21F3139
   - name: GOLEM
     publicKey: 0x049dcbd13cf41cf4fb915e9473addc4d3295ba249329aeb46d45cf33dff501dd83c2e4a1d54ab8b727368b598af46bde8e185629bba8c783dc8737823e75cd5815
     url: https://dome-dev.golem.at
     dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB
+  - name: DHUB
+    publicKey: 0x045b93aa4f4ef0d760b86fb2f33efac86c63ef43e8bc514d05e6521aef27cfec9a30eb1d31aeb5efedbc49a3db079a1b19fe8c3b9add797ad524dcc7b6852e9f65
+    url: https://dome-an-01.eng.it
+    dlt_address: 0x0A554BA66d636756254556e15Ee4F40Edbd519B3
