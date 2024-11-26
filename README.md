@@ -24,6 +24,48 @@ The DOME Trust Framework is a set of rules and guidelines that define the trust 
 
 ### Which data is needed to set a new entry into the Trusted Services List?
 
+The trusted services list contains all the verified and authorized services within the dome ecosystem. these services have met the required standards for secure and trusted interactions. To add a new entry to the trusted services list, specific information must be provided in a yaml file, adhering to the structure outlined below.
+ 
+- **clientId**: should be a `did:key` or a unique identifier for your client. using a `did:key` allows the verifier to obtain your public keys for signature verification without needing a separate jwks endpoint.
+- **url**: the base url of your service or application.
+- **redirectUris**: must include all the urls where you expect to receive authentication responses. these should be https urls to ensure secure communication.
+- **scopes**: currently, only `openid_learcredential` is accepted. this scope allows your service to request the necessary credentials.
+- **clientAuthenticationMethods**: must be set to `["client_secret_jwt"]`, as this is the only supported authentication method.
+- **authorizationGrantTypes**: must be set to `["authorization_code"]`, as this is the only supported grant type.
+- **postLogoutRedirectUris**: include urls where users should be redirected after they log out from your service.
+- **requireAuthorizationConsent**: set to `false` because explicit user consent is not required in this flow.
+- **requireProofKey**: set to `false` as pkce is not utilized.
+- **jwkSetUrl**: if you're using a `did:key` for your clientId, you do not need to provide a `jwkseturl` because the verifier can derive your jwks directly from the `did:key`. however, if you're not using a unique identifier, you must provide the `jwkseturl` where your public keys can be fetched.
+- **tokenEndpointAuthenticationSigningAlgorithm**: must be set to `ES256`, as this is the only supported algorithm.
+
+#### example yaml entry
+
+```yaml
+clients:
+  - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
+    url: "https://dome-marketplace-sbx.org"
+    redirectUris: ["https://dome-marketplace-sbx.org/auth/vc/callback"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris: ["https://dome-marketplace-sbx.org/"]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "dome-issuer"
+    url: "https://issuer.dome-marketplace-lcl.org"
+    redirectUris: [ "https://issuer.dome-marketplace-lcl.org/issuer-keycloak/realms/CredentialIssuer/broker/vc/endpoint" ]
+    scopes: [ "openid_learcredential" ]
+    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    authorizationGrantTypes: [ "authorization_code" ]
+    postLogoutRedirectUris: [ "https://issuer.dome-marketplace-lcl.org/issuer-keycloak" ]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://issuer.dome-marketplace-lcl.org/issuer-keycloak/realms/CredentialIssuer/protocol/openid-connect/certs"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+```
+
 ### Which data is needed to set a new entry into the Trusted Invalid Credentials List?
 
 You need to add the Verifiable Credential ID that you want to invalidate.
