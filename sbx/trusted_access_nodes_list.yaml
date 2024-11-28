@@ -15,3 +15,11 @@ organizations:
     publicKey: 0x0414a23b4f67f019e82298e796b32a48c6bfb928585c2262d4f05c30226935e0903041364141959a417fadb321a716457a737fe8b6e43efc94c5b4c67d34d6239c
     url: https://dome-dev.eng.it
     dlt_address: 0x0420545DC860A297AF3573737BD4eAA0fcCb182D
+  - name: DHUB
+    publicKey: 0x045b93aa4f4ef0d760b86fb2f33efac86c63ef43e8bc514d05e6521aef27cfec9a30eb1d31aeb5efedbc49a3db079a1b19fe8c3b9add797ad524dcc7b6852e9f65
+    url: https://dome-an-01.eng.it
+    dlt_address: 0x0A554BA66d636756254556e15Ee4F40Edbd519B3
+  - name: GOLEM
+    publicKey: 0x049dcbd13cf41cf4fb915e9473addc4d3295ba249329aeb46d45cf33dff501dd83c2e4a1d54ab8b727368b598af46bde8e185629bba8c783dc8737823e75cd5815
+    url: https://dome-dev.golem.at
+    dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB    
