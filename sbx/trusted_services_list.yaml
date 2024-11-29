@@ -37,7 +37,7 @@ clients:
   - clientId: "did:key:zDnaegSQTuyu6LaSqNepQYcuqjcRLDeA5AyjqPLtFhbyNxcrk"
     url: "https://dome-marketplace.dev.in2.es/"
     redirectUris:
-      ["https://dome-marketplace.dev.in2.es//auth/login"]
+      ["https://dome-marketplace.dev.in2.es/auth/login"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code"]
