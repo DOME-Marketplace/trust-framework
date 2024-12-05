@@ -47,3 +47,15 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaegSQTuyu6LaSqNepQYcuqjcRLDeA5AyjqPLtFhbyNxcrk"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:kPm2nXwL8vYjRt4qHcN9sZaB5gFdE3xVC7bQyWuM6pKnTvJ1"
+    url: "https://cs-identity.dome-marketplace-sbx.org/"
+    redirectUris: ["https://cs-identity.dome-marketplace-sbx.org/"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris:
+      ["https://cs-identity.dome-marketplace-sbx.org/"]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:kPm2nXwL8vYjRt4qHcN9sZaB5gFdE3xVC7bQyWuM6pKnTvJ1"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
