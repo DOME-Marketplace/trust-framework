@@ -27,3 +27,7 @@ organizations:
     publicKey: 0x043b777843ab1c195abaa3acaf1d8cbdeec10cc78f2fad990aeb5a1f8f88668e745f896f499b1878225fc8326341fed74a88471a8994bc3c447d96e5aa8da07653
     url: https://desmos.dome-marketplace-dev-ionos.org
     dlt_address: 0xC0989dD196EFb9bA6126Cbd7041924b797688fD4
+  - name: EG-PAYMENT
+    publicKey: 0x048255878d900564c46ca2bbca1f3c23bab8ac60a5a4444de8e062a7a23caa11d2a4725f4c5b9292a0ea74b69730db382fac4d2474c73d41380d618ae13a493d7b
+    url: https://dpas-dev.egroup.hu
+    dlt_address: 0xff87C3b365f452f454A23A50FF2D3c07a1cBBfD7
