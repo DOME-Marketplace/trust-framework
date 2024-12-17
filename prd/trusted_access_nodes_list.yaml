@@ -1,5 +1,5 @@
 organizations:
-  - name: TeamDev
-    publicKey: 0x042df9fd7e2b2ba2aef7d9d7882a9eef359e733043a9ad76632bc5a3f7f12f36bf125e600c5346e13d2cfb65401dd9cae6fad17719e21f992a67d1e1370116de97
-    url: https://dome.tddev.it
-    dlt_address: 0x531863CeE7e05898636b46550becF1Af4b2328F0
+  - name: DOME
+    publicKey: 0
+    url: https://desmos.dome-markteplace-prd.org
+    dlt_address:
