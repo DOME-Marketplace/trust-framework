@@ -27,3 +27,7 @@ organizations:
     publicKey: 0x043b777843ab1c195abaa3acaf1d8cbdeec10cc78f2fad990aeb5a1f8f88668e745f896f499b1878225fc8326341fed74a88471a8994bc3c447d96e5aa8da07653
     url: https://desmos.dome-marketplace-dev-ionos.org
     dlt_address: 0xC0989dD196EFb9bA6126Cbd7041924b797688fD4
+  - name: ED
+    publicKey: 0x04d8ce3aa635fd1377b8cce9d9d18ed99ff8ba66c66b98b3ccdc0d69ad9c2d0ba3b23d4de27a751f559e2afec2c1385f4c6748a4ec71e54c784b00477b41e05da9
+    url: https://dome-access-node.eurodyn.com
+    dlt_address: 0xd91Ca4604461fAF871aA2C7C02f9268f228a1fa2
