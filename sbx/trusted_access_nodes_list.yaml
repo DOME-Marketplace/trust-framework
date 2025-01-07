@@ -23,3 +23,7 @@ organizations:
     publicKey: 0x049dcbd13cf41cf4fb915e9473addc4d3295ba249329aeb46d45cf33dff501dd83c2e4a1d54ab8b727368b598af46bde8e185629bba8c783dc8737823e75cd5815
     url: https://dome-dev.golem.at
     dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB
+  - name: IONOS
+    publicKey: 0x043b777843ab1c195abaa3acaf1d8cbdeec10cc78f2fad990aeb5a1f8f88668e745f896f499b1878225fc8326341fed74a88471a8994bc3c447d96e5aa8da07653
+    url: https://desmos.dome-marketplace-dev-ionos.org
+    dlt_address: 0xC0989dD196EFb9bA6126Cbd7041924b797688fD4
