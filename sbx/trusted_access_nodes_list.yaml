@@ -27,3 +27,7 @@ organizations:
     publicKey: 0x04d456b0739d6578c963e44d7dfed02522e82c1a56f69d6dc698bc80299d6fa7b19becc16e1148fe509a48c2363792897d068be6d4fc58e8440d38146831633b02
     url: https://desmos.dome-marketplace-dev-ionos.org
     dlt_address: 0xEa5238872e1e174130cCD5E29bbB50973fdB4D57
+  - name: TeamDev
+    publicKey: 0x042df9fd7e2b2ba2aef7d9d7882a9eef359e733043a9ad76632bc5a3f7f12f36bf125e600c5346e13d2cfb65401dd9cae6fad17719e21f992a67d1e1370116de97
+    url: https://dome.tddev.it
+    dlt_address: 0x531863CeE7e05898636b46550becF1Af4b2328F0
