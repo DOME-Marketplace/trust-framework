@@ -10,3 +10,16 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-prd.org/oidc/did/did:key:zDnaeTU39Wx9KXgmEwmfXsZSyEVxgCqwCVmoPyVQUTD8bhW8a"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
+    url: "https://dome-certification.dome-marketplace-prd.org"
+    redirectUris:
+      ["https://dome-certification.dome-marketplace-prd.org/auth/login"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris:
+      ["https://dome-certification.dome-marketplace-prd.org/"]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-prd.org/oidc/did/did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"

@@ -27,7 +27,7 @@ clients:
       ["https://dome-certification.dome-marketplace-sbx.org/auth/login"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["authorization_code"]
+    authorizationGrantTypes: ["authorization_code", "refresh_token"]
     postLogoutRedirectUris:
       ["https://dome-certification.dome-marketplace-sbx.org/"]
     requireAuthorizationConsent: false

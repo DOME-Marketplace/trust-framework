@@ -22,12 +22,16 @@ organizations:
   - name: GOLEM
     publicKey: 0x049dcbd13cf41cf4fb915e9473addc4d3295ba249329aeb46d45cf33dff501dd83c2e4a1d54ab8b727368b598af46bde8e185629bba8c783dc8737823e75cd5815
     url: https://dome-dev.golem.at
-    dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB    
+    dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB
   - name: IONOS
-    publicKey: 0x043b777843ab1c195abaa3acaf1d8cbdeec10cc78f2fad990aeb5a1f8f88668e745f896f499b1878225fc8326341fed74a88471a8994bc3c447d96e5aa8da07653
+    publicKey: 0x04d456b0739d6578c963e44d7dfed02522e82c1a56f69d6dc698bc80299d6fa7b19becc16e1148fe509a48c2363792897d068be6d4fc58e8440d38146831633b02
     url: https://desmos.dome-marketplace-dev-ionos.org
     dlt_address: 0xC0989dD196EFb9bA6126Cbd7041924b797688fD4
   - name: ED
     publicKey: 0x04d8ce3aa635fd1377b8cce9d9d18ed99ff8ba66c66b98b3ccdc0d69ad9c2d0ba3b23d4de27a751f559e2afec2c1385f4c6748a4ec71e54c784b00477b41e05da9
     url: https://dome-access-node.eurodyn.com
     dlt_address: 0xd91Ca4604461fAF871aA2C7C02f9268f228a1fa2
+  - name: TeamDev
+    publicKey: 0x042df9fd7e2b2ba2aef7d9d7882a9eef359e733043a9ad76632bc5a3f7f12f36bf125e600c5346e13d2cfb65401dd9cae6fad17719e21f992a67d1e1370116de97
+    url: https://dome.tddev.it
+    dlt_address: 0x531863CeE7e05898636b46550becF1Af4b2328F0
