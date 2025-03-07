@@ -1,37 +1,19 @@
 organizations:
   - name: DOME
-    publicKey: 0x04b7b39656970452923668c9aa59c0e183d03bf1f04af84ea031bbb56c8e18d195dfdf0c115413d12bd9fd84438f3d1f175177c193e44b58482d55409c31e6ec87
-    url: https://desmos.dome-marketplace-sbx.org
     dlt_address: 0x59e8Cb6486d198e85484bc2F6e0B3a1275A2823F
   - name: IN2
-    publicKey: 0x0481fd5909250ed5da0c77af1469f67ab990c942a1439923dbb94fd06e68c7f0c60e75795d93dc0b6523c5d3400ae47c2a1a5ef2e8bfec45a03991e1549f870bb7
-    url: https://desmos.dome-marketplace-lcl.org
     dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
   - name: IN2-DEV-ARES
-    publicKey: 0x04edd7bb56b8eed25907bae2e4597cc7df2e1dea5802c647a01c8f24574194b399ccb07ef8e62fe4f23fa49260245033e0e91c4fe3a0e875eb6ea815c9ca6a4b96
-    url: https://desmos.dome-marketplace.dev.in2.es
     dlt_address: 0x956a513E04725C149A89bD0808DBeE7Ec5590e4a
   - name: ENG
-    publicKey: 0x0414a23b4f67f019e82298e796b32a48c6bfb928585c2262d4f05c30226935e0903041364141959a417fadb321a716457a737fe8b6e43efc94c5b4c67d34d6239c
-    url: https://dome-dev.eng.it
     dlt_address: 0x0420545DC860A297AF3573737BD4eAA0fcCb182D
   - name: DHUB
-    publicKey: 0x045b93aa4f4ef0d760b86fb2f33efac86c63ef43e8bc514d05e6521aef27cfec9a30eb1d31aeb5efedbc49a3db079a1b19fe8c3b9add797ad524dcc7b6852e9f65
-    url: https://dome-an-01.eng.it
     dlt_address: 0x0A554BA66d636756254556e15Ee4F40Edbd519B3
   - name: GOLEM
-    publicKey: 0x049dcbd13cf41cf4fb915e9473addc4d3295ba249329aeb46d45cf33dff501dd83c2e4a1d54ab8b727368b598af46bde8e185629bba8c783dc8737823e75cd5815
-    url: https://dome-dev.golem.at
     dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB
   - name: EG-PAYMENT
-    publicKey: 0x048255878d900564c46ca2bbca1f3c23bab8ac60a5a4444de8e062a7a23caa11d2a4725f4c5b9292a0ea74b69730db382fac4d2474c73d41380d618ae13a493d7b
-    url: https://dpas-sbx.egroup.hu
     dlt_address: 0xff87C3b365f452f454A23A50FF2D3c07a1cBBfD7
   - name: IONOS
-    publicKey: 0x04d456b0739d6578c963e44d7dfed02522e82c1a56f69d6dc698bc80299d6fa7b19becc16e1148fe509a48c2363792897d068be6d4fc58e8440d38146831633b02
-    url: https://desmos.dome-marketplace-dev-ionos.org
     dlt_address: 0xEa5238872e1e174130cCD5E29bbB50973fdB4D57
   - name: TeamDev
-    publicKey: 0x042df9fd7e2b2ba2aef7d9d7882a9eef359e733043a9ad76632bc5a3f7f12f36bf125e600c5346e13d2cfb65401dd9cae6fad17719e21f992a67d1e1370116de97
-    url: https://dome.tddev.it
     dlt_address: 0x531863CeE7e05898636b46550becF1Af4b2328F0
