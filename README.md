@@ -78,19 +78,11 @@ The generated data is stored in a YAML file, which includes the following inform
 ```yaml
 organizations:
   - name: "Organization 1"
-    publicKey: "Mg5v8CDaEnJkSJfP1Q6Q6Q=="
-    url: "https://organization1.com"
     dlt_address: "0x43b27fef24cfe8a0b797ed8a36de2884f9963c0c2a0da640e3ec7ad6cd0c493d"
   - name: "Organization 2"
-    publicKey: "EsThbaGlaZIPB6xN6Q6Q6Q=="
-    url: "https://123.162.194.139:8080"
     dlt_address: "0xb794f5ea0ba39494ce83...9613fffba74279579268"
 ```
 
-> NOTE: The `publicKey` field is the public key of the organization that is used to verify the signature of the JWT token. It is the same public key related to the EthereumAddress of the organizations used in the DLT-Adapter.
-
-> NOTE 2: The `url` must be the URL of the organization's Access Node, and it can be an IP address or a domain.
-
-> NOTE 3: The `dlt_address`must be the Ethereum Address of the organization's Access Node.
+> NOTE: The `dlt_address`must be the Ethereum Address of the organization's Access Node.
 
 
