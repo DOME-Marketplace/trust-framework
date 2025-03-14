@@ -17,3 +17,7 @@ organizations:
     dlt_address: 0xEa5238872e1e174130cCD5E29bbB50973fdB4D57
   - name: TeamDev
     dlt_address: 0x531863CeE7e05898636b46550becF1Af4b2328F0
+  - name: ED
+    publicKey: 0x04d8ce3aa635fd1377b8cce9d9d18ed99ff8ba66c66b98b3ccdc0d69ad9c2d0ba3b23d4de27a751f559e2afec2c1385f4c6748a4ec71e54c784b00477b41e05da9
+    url: https://dome-access-node.eurodyn.com
+    dlt_address: 0xd91Ca4604461fAF871aA2C7C02f9268f228a1fa2
