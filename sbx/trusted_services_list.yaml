@@ -119,4 +119,5 @@ clients:
     postLogoutRedirectUris: ["https://dome.tddev.it"]
     requireAuthorizationConsent: false
     requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaekkkrbDF8xamm4HAZs4WWLxxWbmL4SANLciPfRHouJRWe"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
