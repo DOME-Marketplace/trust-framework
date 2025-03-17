@@ -110,3 +110,13 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaev2NrT2aiJN7CE8hwMuahRJccCYLaWwCGyqDaB5C81FQQ"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaekkkrbDF8xamm4HAZs4WWLxxWbmL4SANLciPfRHouJRWe"
+    url: "https://dome.tddev.it"
+    redirectUris: ["https://dome.tddev.it/auth/vc/callback"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code", "refresh_token"]
+    postLogoutRedirectUris: ["https://dome.tddev.it"]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
