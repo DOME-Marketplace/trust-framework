@@ -161,3 +161,14 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaepNTqZthXqoxDkNRVYcaun1p8yZLQ5eej4T84fRvoV6FT"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
+    url: "https://dpas-sbx.egroup.hu/"
+    redirectUris: [ ]
+    scopes: [ ]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"   
