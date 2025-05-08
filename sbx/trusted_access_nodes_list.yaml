@@ -8,7 +8,7 @@ organizations:
   - name: ENG
     dlt_address: 0x0420545DC860A297AF3573737BD4eAA0fcCb182D
   - name: DHUB
-    dlt_address: 0x0A554BA66d636756254556e15Ee4F40Edbd519B3
+    dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B31
   - name: GOLEM
     dlt_address: 0x33Db4d7F1e09A56b32882CE7C7174223a62354DB
   - name: EG-PAYMENT

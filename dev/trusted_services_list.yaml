@@ -43,16 +43,16 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "issuer-dome"
-    url: "https://issuer.dome-marketplace-dev2.org"
-    redirectUris: [ "https://issuer.dome-marketplace-dev2.org/issuer-keycloak/realms/issuer-dome/broker/vc/endpoint" ]
+  - clientId: "dome-issuer"
+    url: "https://keycloak.dome-marketplace-dev2.org"
+    redirectUris: [ "https://keycloak.dome-marketplace-dev2.org/realms/dome-issuer/broker/vc/endpoint" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
     authorizationGrantTypes: [ "authorization_code" ]
-    postLogoutRedirectUris: [ "https://issuer.dome-marketplace-dev2.org/issuer-keycloak" ]
+    postLogoutRedirectUris: [ "https://keycloak.dome-marketplace-dev2.org" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://issuer.dome-marketplace-dev2.org/issuer-keycloak/realms/issuer-dome/protocol/openid-connect/certs"
+    jwkSetUrl: "https://keycloak.dome-marketplace-dev2.org/realms/dome-issuer/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeXJqrRKLndub9uQEaghYMYwRZ4eaVnXHywjtaVRL8vTBm"
     redirectUris: [ ]
@@ -84,4 +84,26 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaevaAg71VGz3W9dvahh7CPYMQZXLjMgyoGUzkkH5TuzSo5"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaegZhm5sDG2m4XULgxDMgb6fkYbG2MgQKqBcZvXiqM7nQJ"
+    url: "https://onboarding.dome-marketplace-dev2.org"
+    redirectUris: [ ]
+    scopes: [ ]
+    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    authorizationGrantTypes: [ "client_credentials" ]
+    postLogoutRedirectUris: [ ]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaegZhm5sDG2m4XULgxDMgb6fkYbG2MgQKqBcZvXiqM7nQJ"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaev5a9jobz2Qyhk6EL5GBLCRupG96nyw1YDo9uyAQeHw47"
+    url: "https://issuer.dome-marketplace-dev2.org/issuer-api"
+    redirectUris: [ ]
+    scopes: [ ]
+    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    authorizationGrantTypes: [ "client_credentials" ]
+    postLogoutRedirectUris: [ ]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaev5a9jobz2Qyhk6EL5GBLCRupG96nyw1YDo9uyAQeHw47"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
