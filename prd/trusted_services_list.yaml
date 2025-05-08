@@ -55,3 +55,14 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaeXzavjTD9NFhRNaQJgjdue3G184915XS94e4d9CoNQREc"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaezeGsnV8T7q6WLbdUYravS4yE6LTQWKzRMAaygRqPYktX"
+    url: "https://www.theplatforms.it/shop"
+    redirectUris: []
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: ""
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
