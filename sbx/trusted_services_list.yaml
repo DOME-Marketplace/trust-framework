@@ -58,7 +58,7 @@ clients:
     jwkSetUrl: "https://cs-identity.dome-marketplace-sbx.org/realms/dome/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "dome-issuer"
-    url: "https://keycloak.dome-marketplace-sbx.org"
+    url: "https://issuer.dome-marketplace-sbx.org/"
     redirectUris: [ "https://keycloak.dome-marketplace-sbx.org/realms/dome-issuer/broker/vc/endpoint" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
