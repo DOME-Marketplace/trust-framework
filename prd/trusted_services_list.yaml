@@ -55,3 +55,14 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaeXzavjTD9NFhRNaQJgjdue3G184915XS94e4d9CoNQREc"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaejKUu1x7UjbdWQT5PwEmhG8tA536YjkCSyAghSFSXfpKt"
+    url: "http://payment-scheduler-svc.billing.svc.cluster.local:8080"
+    redirectUris: []
+    scopes: []
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaejKUu1x7UjbdWQT5PwEmhG8tA536YjkCSyAghSFSXfpKt"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
