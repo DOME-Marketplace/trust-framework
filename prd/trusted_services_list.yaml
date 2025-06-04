@@ -11,14 +11,14 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-prd.org/oidc/did/did:key:zDnaeTU39Wx9KXgmEwmfXsZSyEVxgCqwCVmoPyVQUTD8bhW8a"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
-    url: "https://dome-certification.dome-marketplace-prd.org"
+    url: "https://dome-certification.dome-marketplace.eu"
     redirectUris:
-      ["https://dome-certification.dome-marketplace-prd.org/auth/login"]
+      ["https://dome-certification.dome-marketplace.eu/auth/login"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code"]
     postLogoutRedirectUris:
-      ["https://dome-certification.dome-marketplace-prd.org/"]
+      ["https://dome-certification.dome-marketplace.eu/"]
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-prd.org/oidc/did/did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
