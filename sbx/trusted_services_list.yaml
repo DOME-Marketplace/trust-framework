@@ -172,7 +172,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaepVBpJbwhJTVpSPBfZFLBQ3C44nNwwn7dK7rzD4tAx4Hv"
+  - clientId: "did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
     url: "https://analytics.dome-marketplace-sbx.org"
     redirectUris: ["https://analytics.dome-marketplace-sbx.org/oauth-authorized/dome"]
     scopes: ["openid_learcredential"]
