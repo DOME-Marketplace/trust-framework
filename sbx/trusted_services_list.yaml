@@ -171,4 +171,16 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
-    tokenEndpointAuthenticationSigningAlgorithm: "ES256"   
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
+    url: "https://analytics.dome-marketplace-sbx.org"
+    redirectUris: ["https://analytics.dome-marketplace-sbx.org/oauth-authorized/dome"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris: ["https://analytics.dome-marketplace-sbx.org/"]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://analytics.dome-marketplace-sbx.org/.well-known/jwks.json"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+
