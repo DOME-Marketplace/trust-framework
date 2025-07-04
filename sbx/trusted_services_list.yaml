@@ -189,7 +189,7 @@ clients:
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code"]
-    postLogoutRedirectUris: [""]
+    postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
