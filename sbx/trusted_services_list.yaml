@@ -23,13 +23,11 @@ clients:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaehmkEhoybLgRkVbKpAv47Vu81Rw5TmLUA5PrRKuWSbhxn"
     url: "https://dome-certification.dome-marketplace-sbx.org"
-    redirectUris:
-      ["https://dome-certification.dome-marketplace-sbx.org/auth/login"]
+    redirectUris: ["https://dome-certification.dome-marketplace-sbx.org/auth/login"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code", "refresh_token"]
-    postLogoutRedirectUris:
-      ["https://dome-certification.dome-marketplace-sbx.org/"]
+    postLogoutRedirectUris: ["https://dome-certification.dome-marketplace-sbx.org/"]
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaehmkEhoybLgRkVbKpAv47Vu81Rw5TmLUA5PrRKuWSbhxn"
@@ -40,8 +38,7 @@ clients:
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code"]
-    postLogoutRedirectUris:
-      ["https://dome-marketplace.dev.in2.es/"]
+    postLogoutRedirectUris: ["https://dome-marketplace.dev.in2.es/"]
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaegSQTuyu6LaSqNepQYcuqjcRLDeA5AyjqPLtFhbyNxcrk"
@@ -91,8 +88,8 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeb3th2TDPrQTnM19Mdy543xFetwCpqjmcGBFgisqYKuL4"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaerQi587EqQLqEaj7qbxc46hzdjX2goNsmLTq1X6HqzzjP"
-    redirectUris: [ ]
-    scopes: [ ]
+    redirectUris: []
+    scopes: []
     clientAuthenticationMethods: [ "client_secret_jwt" ]
     authorizationGrantTypes: [ "client_credentials" ]
     postLogoutRedirectUris: [ ]
@@ -101,11 +98,11 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaerQi587EqQLqEaj7qbxc46hzdjX2goNsmLTq1X6HqzzjP"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaev2NrT2aiJN7CE8hwMuahRJccCYLaWwCGyqDaB5C81FQQ"
-    redirectUris: [ ]
-    scopes: [ ]
+    redirectUris: []
+    scopes: []
     clientAuthenticationMethods: [ "client_secret_jwt" ]
     authorizationGrantTypes: [ "client_credentials" ]
-    postLogoutRedirectUris: [ ]
+    postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaev2NrT2aiJN7CE8hwMuahRJccCYLaWwCGyqDaB5C81FQQ"
@@ -182,4 +179,15 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://analytics.dome-marketplace-sbx.org/.well-known/jwks.json"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
+    url: "https://dome-analytics-sso.eurodyn.com"
+    redirectUris: []
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
