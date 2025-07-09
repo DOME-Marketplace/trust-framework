@@ -171,14 +171,14 @@ clients:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
     url: "https://analytics.dome-marketplace-sbx.org"
-    redirectUris: ["https://analytics.dome-marketplace-sbx.org/oauth-authorized/dome"]
+    redirectUris: []
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["authorization_code"]
-    postLogoutRedirectUris: ["https://analytics.dome-marketplace-sbx.org/"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://analytics.dome-marketplace-sbx.org/.well-known/jwks.json"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
     url: "https://dome-analytics-sso.eurodyn.com"
