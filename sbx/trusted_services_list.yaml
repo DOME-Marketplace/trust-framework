@@ -171,10 +171,10 @@ clients:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
     url: "https://analytics.dome-marketplace-sbx.org"
-    redirectUris: []
+    redirectUris: ["https://analytics.dome-marketplace-sbx.org/oauth-authorized/dome"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["client_credentials"]
+    authorizationGrantTypes: ["authorization_code", "client_credentials"]
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
