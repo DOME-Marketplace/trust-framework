@@ -192,6 +192,7 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeZSGaVHUTPxAYa4astKTTJgpiXMQsjg6Yn1WQiEfT8wAT"
+    url: "https://marketplace-sandbox-4-eu-west-2.outscale.com"
     redirectUris: []
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
