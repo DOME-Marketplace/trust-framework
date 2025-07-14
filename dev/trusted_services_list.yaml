@@ -44,7 +44,7 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "dome-issuer"
-    url: "https://keycloak.dome-marketplace-dev2.org"
+    url: "https://issuer.dome-marketplace-dev2.org"
     redirectUris: [ "https://keycloak.dome-marketplace-dev2.org/realms/dome-issuer/broker/vc/endpoint" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
@@ -95,4 +95,26 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaev5a9jobz2Qyhk6EL5GBLCRupG96nyw1YDo9uyAQeHw47"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaevaAg71VGz3W9dvahh7CPYMQZXLjMgyoGUzkkH5TuzSo5"
+    url: "http://payment-scheduler-svc.billing.svc.cluster.local:8080"
+    redirectUris: []
+    scopes: []
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaevaAg71VGz3W9dvahh7CPYMQZXLjMgyoGUzkkH5TuzSo5"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaecftcNofzseifUc1taiWzRiQeihWFdd2gr9tojz4gsrVS"
+    url: "http://dpas-dev2.egroup.hu/"
+    redirectUris: []
+    scopes: []
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaecftcNofzseifUc1taiWzRiQeihWFdd2gr9tojz4gsrVS"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
