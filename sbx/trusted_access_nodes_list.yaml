@@ -18,5 +18,7 @@ organizations:
     dlt_address: 0xEa5238872e1e174130cCD5E29bbB50973fdB4D57
   - name: TeamDev
     dlt_address: 0x531863CeE7e05898636b46550becF1Af4b2328F0
+  - name: Outscale
+    dlt_address: 0x4e72c5CDC1Def9825E2d712C1B998394e024609b
   - name: EHT
     dlt_address: 0x93F3Ce68B3283D9C3f8d1C9a0845dCE0cDEcAB02
