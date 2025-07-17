@@ -2,8 +2,7 @@ organizations:
   - name: DOME
     dlt_address: 0x59e8Cb6486d198e85484bc2F6e0B3a1275A2823F
   - name: IN2
-    #dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
-    dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117085
+    dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
   - name: IN2-DEV-ARES
     dlt_address: 0x956a513E04725C149A89bD0808DBeE7Ec5590e4a
   - name: ENG
