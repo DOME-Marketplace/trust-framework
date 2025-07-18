@@ -16,22 +16,30 @@ The DOME Trust Framework is a set of rules and guidelines that define the trust 
 ### How-To insert a new value in the Trusted Lists
 
 1. Fork the repository. You will need a <a href="https://github.com/" target="_blank">Github account</a> to do so.
-   <img width="946" height="253" alt="image" src="https://github.com/user-attachments/assets/18630422-a070-4d53-a8e2-2154c786cfe2" />
+
+    <img width="946" height="253" alt="image" src="https://github.com/user-attachments/assets/18630422-a070-4d53-a8e2-2154c786cfe2" />
 
 2. Select the environment you want to add the organization to (SBX, DEV2, PRD --if you are not a DOME developer, choose PRD by default)
+
    <img width="953" height="296" alt="image" src="https://github.com/user-attachments/assets/601c47e1-2b77-4c7e-a298-ed843d57b326" />
 
 3. Select the YAML file corresponding to the list you want to modify and edit it (i. e. "revoked_credential_list")
-   <img width="946" height="362" alt="image" src="https://github.com/user-attachments/assets/bbec74fe-5faa-4ba7-a77b-d4243a420fbe" />
+ 
+  <img width="946" height="362" alt="image" src="https://github.com/user-attachments/assets/bbec74fe-5faa-4ba7-a77b-d4243a420fbe" />
+  
   <img width="949" height="292" alt="image" src="https://github.com/user-attachments/assets/0aa2a9d2-e58c-477a-9582-299412df8537" />
+ 
   <img width="1907" height="740" alt="image" src="https://github.com/user-attachments/assets/68943a28-43ef-4555-a253-435e77ab2fde" />
-5. Click on commit changes and select "Create a new branch for this commit and start a pull request"
+4. Click on commit changes and select "Create a new branch for this commit and start a pull request"
+
+<img width="951" height="461" alt="image" src="https://github.com/user-attachments/assets/47da98db-a9ba-4841-9929-1588b915f7bc" />
+
    
-6. Create a pull request
+5. Create a pull request
    <img width="949" height="364" alt="image" src="https://github.com/user-attachments/assets/679531b5-10d6-469b-9736-cfb756a2dc2a" />
 
-7. Open a ticket in the <a href="[https://github.com/](https://ticketing-int.dome-marketplace.eu/)" target="_blank">DOME Support Ticket System</a> for the pull request to be approved → This will need to be verified by the DOME Operator.
-8. If the pull request is approved, the data will be added to the directory
+6. Open a ticket in the <a href="https://ticketing-int.dome-marketplace.eu" target="_blank">DOME Support Ticket System</a> for the pull request to be approved → This will need to be verified by the DOME Operator.
+7. If the pull request is approved, the data will be added to the directory
 
 ### Which data is needed to set a new entry into the Trusted Services List?
 
