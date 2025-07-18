@@ -30,6 +30,7 @@ The DOME Trust Framework is a set of rules and guidelines that define the trust 
   <img width="949" height="292" alt="image" src="https://github.com/user-attachments/assets/0aa2a9d2-e58c-477a-9582-299412df8537" />
  
   <img width="1907" height="740" alt="image" src="https://github.com/user-attachments/assets/68943a28-43ef-4555-a253-435e77ab2fde" />
+  
 4. Click on commit changes and select "Create a new branch for this commit and start a pull request"
 
 <img width="951" height="461" alt="image" src="https://github.com/user-attachments/assets/47da98db-a9ba-4841-9929-1588b915f7bc" />
@@ -87,10 +88,12 @@ You need to add the Verifiable Credential ID that you want to invalidate. If you
 <img width="1898" height="896" alt="image" src="https://github.com/user-attachments/assets/b9ec12ca-2e0b-448c-84d9-fd6d81b0ed4b" />
 
 
-Once you are in this page, open the Devtools > Network and reload the page. Then select the "credential-decoded" request and open the "Response" tab, where you will be able to see the procedure object.
+Once you are in the Details page, open the Devtools > Network and reload the page. Then select the "credential-decoded" request and open the "Response" tab, where you will be able to see the procedure object.
+
 <img width="952" height="410" alt="image" src="https://github.com/user-attachments/assets/ee353c8c-33e9-4263-8257-8008c3874b0e" />
 
 This object contains the "credential" key, which contains the "id" key. This is the key you have to add to the Revoked credentials list.
+
 <img width="950" height="136" alt="image" src="https://github.com/user-attachments/assets/f0c96945-0432-4d03-a78f-ae7ee810ab7d" />
 
 
