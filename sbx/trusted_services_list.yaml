@@ -204,11 +204,11 @@ clients:
   - clientId: "did:key:zDnaeiyBeX6q6YQTKQt6N9G1itNpF3Cy9hKw4Xup7A5u9R1Dp"
     url: "https://www.theplatforms.it/shop"
     redirectUris: [ ]
-    scopes: [ "openid_learcredential" ]
+    scopes: [ ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
-    authorizationGrantTypes: [ "authorization_code" ]
+    authorizationGrantTypes: [ "client_credentials" ]
     postLogoutRedirectUris: [ ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: ""
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeiyBeX6q6YQTKQt6N9G1itNpF3Cy9hKw4Xup7A5u9R1Dp"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
