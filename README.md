@@ -15,12 +15,32 @@ The DOME Trust Framework is a set of rules and guidelines that define the trust 
 
 ### How-To insert a new value in the Trusted Lists
 
-1. Fork the repository
-2. Select the environment you want to add the organization to
-3. Edit the YAML file adding your values
-4. Create a pull request
-5. Wait for the pull request to be approved → This will need to be verified by the DOME Operator.
-6. If the pull request is approved, the data will be added to the directory
+1. Fork the repository. You will need a <a href="https://github.com/" target="_blank">Github account</a> to do so.
+
+    <img width="946" height="253" alt="image" src="https://github.com/user-attachments/assets/18630422-a070-4d53-a8e2-2154c786cfe2" />
+
+2. Select the environment you want to add the organization to (SBX, DEV2, PRD --if you are not a DOME developer, choose PRD by default)
+
+   <img width="953" height="296" alt="image" src="https://github.com/user-attachments/assets/601c47e1-2b77-4c7e-a298-ed843d57b326" />
+
+3. Select the YAML file corresponding to the list you want to modify and edit it (i. e. "revoked_credential_list")
+ 
+  <img width="946" height="362" alt="image" src="https://github.com/user-attachments/assets/bbec74fe-5faa-4ba7-a77b-d4243a420fbe" />
+  
+  <img width="949" height="292" alt="image" src="https://github.com/user-attachments/assets/0aa2a9d2-e58c-477a-9582-299412df8537" />
+ 
+  <img width="1907" height="740" alt="image" src="https://github.com/user-attachments/assets/68943a28-43ef-4555-a253-435e77ab2fde" />
+  
+4. Click on commit changes and select "Create a new branch for this commit and start a pull request"
+
+<img width="951" height="461" alt="image" src="https://github.com/user-attachments/assets/47da98db-a9ba-4841-9929-1588b915f7bc" />
+
+   
+5. Create a pull request
+   <img width="949" height="364" alt="image" src="https://github.com/user-attachments/assets/679531b5-10d6-469b-9736-cfb756a2dc2a" />
+
+6. Open a ticket in the <a href="https://ticketing-int.dome-marketplace.eu" target="_blank">DOME Support Ticket System</a> for the pull request to be approved → This will need to be verified by the DOME Operator.
+7. If the pull request is approved, the data will be added to the directory
 
 ### Which data is needed to set a new entry into the Trusted Services List?
 
@@ -63,7 +83,20 @@ You need to add the Verifiable Credential ID that you want to invalidate.
 
 ### Which data is needed to set a new entry into the Trusted Revoked Credentials List?
 
-You need to add the Verifiable Credential ID that you want to invalidate.
+You need to add the Verifiable Credential ID that you want to invalidate. If you are working with the Issuer app, you can check it navigating to the Details page of the credential you wish to revoke. You can access this page by clicking its corresponding row in the credentials table.
+
+<img width="1898" height="896" alt="image" src="https://github.com/user-attachments/assets/b9ec12ca-2e0b-448c-84d9-fd6d81b0ed4b" />
+
+
+Once you are in the Details page, open the Devtools > Network and reload the page. Then select the "credential-decoded" request and open the "Response" tab, where you will be able to see the procedure object.
+
+<img width="952" height="410" alt="image" src="https://github.com/user-attachments/assets/ee353c8c-33e9-4263-8257-8008c3874b0e" />
+
+This object contains the "credential" key, which contains the "id" key. This is the key you have to add to the Revoked credentials list.
+
+<img width="950" height="136" alt="image" src="https://github.com/user-attachments/assets/f0c96945-0432-4d03-a78f-ae7ee810ab7d" />
+
+
 
 ### Which data is needed to set a new entry into the Trusted Access Node Operators List?
 
