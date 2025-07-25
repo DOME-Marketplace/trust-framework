@@ -54,26 +54,6 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://keycloak.dome-marketplace-dev2.org/realms/dome-issuer/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeXJqrRKLndub9uQEaghYMYwRZ4eaVnXHywjtaVRL8vTBm"
-    redirectUris: [ ]
-    scopes: [ ]
-    clientAuthenticationMethods: [ "client_secret_jwt" ]
-    authorizationGrantTypes: [ "client_credentials" ]
-    postLogoutRedirectUris: [ ]
-    requireAuthorizationConsent: false
-    requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeXJqrRKLndub9uQEaghYMYwRZ4eaVnXHywjtaVRL8vTBm"
-    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeWXWgqP2myMLhTxZo9jRJpdiW8Cqv21fj1UX6uK5iKkKW"
-    redirectUris: [ ]
-    scopes: [ ]
-    clientAuthenticationMethods: [ "client_secret_jwt" ]
-    authorizationGrantTypes: [ "client_credentials" ]
-    postLogoutRedirectUris: [ ]
-    requireAuthorizationConsent: false
-    requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeWXWgqP2myMLhTxZo9jRJpdiW8Cqv21fj1UX6uK5iKkKW"
-    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaegZhm5sDG2m4XULgxDMgb6fkYbG2MgQKqBcZvXiqM7nQJ"
     url: "https://onboarding.dome-marketplace-dev2.org"
     redirectUris: [ ]
