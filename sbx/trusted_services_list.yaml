@@ -111,7 +111,7 @@ clients:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
     url: "https://dome-analytics-sso.eurodyn.com"
-    redirectUris: []
+    redirectUris: ["http://dome-analytics-sso.eurodyn.com/oauth-authorized/dome"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["client_credentials"]
