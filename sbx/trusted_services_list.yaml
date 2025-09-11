@@ -110,7 +110,7 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
   - clientId: "did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
     url: "https://dome-analytics-sso.eurodyn.com"
-    redirectUris: ["https://dome-analytics-sso.eurodyn.com/oauth-authorized/dome"]
+    redirectUris: ["http://dome-analytics-sso.eurodyn.com/oauth-authorized/dome"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code"]
