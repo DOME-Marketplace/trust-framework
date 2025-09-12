@@ -102,19 +102,18 @@ clients:
     url: "https://analytics.dome-marketplace-sbx.org"
     redirectUris: ["https://analytics.dome-marketplace-sbx.org/oauth-authorized/dome"]
     scopes: ["openid_learcredential"]
-    clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["authorization_code", "client_credentials"]
+    clientAuthenticationMethods: ["none"]
+    authorizationGrantTypes: ["authorization_code"]
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
-    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
     url: "https://dome-analytics-sso.eurodyn.com"
-    redirectUris: []
+    redirectUris: ["http://dome-analytics-sso.eurodyn.com/oauth-authorized/dome"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["client_credentials"]
+    authorizationGrantTypes: ["authorization_code"]
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
