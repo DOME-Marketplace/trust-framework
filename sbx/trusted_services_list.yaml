@@ -139,7 +139,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaev2NrT2aiJN7CE8hwMuahRJccCYLaWwCGyqDaB5C81FQQ"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaekkkrbDF8xamm4HAZs4WWLxxWbmL4SANLciPfRHouJRWe"
+  - clientId: "did:key:zDnaecMc5YES917FMe7zJGgmpa4ttGYVcjBcVEc6o8FgfcKD7"
     url: "https://dome.tddev.it"
     redirectUris: ["https://dome.tddev.it/auth/vc/callback"]
     scopes: ["openid_learcredential"]
@@ -148,7 +148,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaekkkrbDF8xamm4HAZs4WWLxxWbmL4SANLciPfRHouJRWe"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaecMc5YES917FMe7zJGgmpa4ttGYVcjBcVEc6o8FgfcKD7"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeupc9BmNtUg7obyrLScXwaWkYPR7ucyNXc5VykdG4vUMf"
     url: "https://deploy-preview-2--isbecatalog.netlify.app/"
