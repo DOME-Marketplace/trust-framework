@@ -152,9 +152,9 @@ clients:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeupc9BmNtUg7obyrLScXwaWkYPR7ucyNXc5VykdG4vUMf"
     url: "https://deploy-preview-2--isbecatalog.netlify.app/"
-    redirectUris: [ "https://deploy-preview-2--isbecatalog.netlify.app/auth/vc/callback" ]
+    redirectUris: [ ]
     scopes: [ "openid_learcredential" ]
-    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    clientAuthenticationMethods: [ "none" ]
     authorizationGrantTypes: [ "authorization_code", "refresh_token" ]
     postLogoutRedirectUris: [ "https://deploy-preview-2--isbecatalog.netlify.app/" ]
     requireAuthorizationConsent: false
