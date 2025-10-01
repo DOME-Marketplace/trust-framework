@@ -3,3 +3,5 @@ organizations:
     dlt_address: 0x59e8Cb6486d198e85484bc2F6e0B3a1275A2823F
   - name: IN2
     dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
+  - name: EHT
+    dlt_address: 0x93F3Ce68B3283D9C3f8d1C9a0845dCE0cDEcAB02
