@@ -10,7 +10,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeqXX5hXoHbX8dSjSdgZkzcH1Sa6RcSsvnvLZUukqFRGx9"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeXpZdNyXe2RNf4D1NRRu2TwmEqmxK1dT8DRi1iEZ1kmUt"
+  - clientId: "did:key:zDnaezLhSFWRZ1zrYQRwLxV8nDWmb2REHoUf7N3qvna1TFina"
     url: "https://issuer.dome-marketplace-dev2.org"
     redirectUris: []
     scopes: []
@@ -19,7 +19,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeXpZdNyXe2RNf4D1NRRu2TwmEqmxK1dT8DRi1iEZ1kmUt"
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaezLhSFWRZ1zrYQRwLxV8nDWmb2REHoUf7N3qvna1TFina"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeVSrocQuTZahbBWM6yEHBX4GJgv4JpfdKECYYYABeCPX1"
     url: "https://dome-marketplace-dev.org"
