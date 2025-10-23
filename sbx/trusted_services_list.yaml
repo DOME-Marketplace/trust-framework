@@ -171,7 +171,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaerQi587EqQLqEaj7qbxc46hzdjX2goNsmLTq1X6HqzzjP"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeiyBeX6q6YQTKQt6N9G1itNpF3Cy9hKw4Xup7A5u9R1Dp"
+  - clientId: "did:key:zDnaeU8pdzYM3PsPJWeL5HzEbndKxeH5LHoPs3h3V3ErsMsxL"
     url: "https://www.theplatforms.it/shop"
     redirectUris: [ ]
     scopes: [ ]
@@ -180,5 +180,5 @@ clients:
     postLogoutRedirectUris: [ ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeiyBeX6q6YQTKQt6N9G1itNpF3Cy9hKw4Xup7A5u9R1Dp"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeU8pdzYM3PsPJWeL5HzEbndKxeH5LHoPs3h3V3ErsMsxL"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
