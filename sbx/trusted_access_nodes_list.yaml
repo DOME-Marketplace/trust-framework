@@ -4,5 +4,7 @@ organizations:
      #bad- > dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117077
    - name: EHT
      dlt_address: 0x93F3Ce68B3283D9C3f8d1C9a0845dCE0cDEcAB02
+   - name: TeamDev
+     dlt_address: 0x398003c1F59FF95195cCB1700413394a39FeB88D
    - name: ENG
      dlt_address: 0x05461BA392DC93184353D392cbBAB97B8AcaBd5F
