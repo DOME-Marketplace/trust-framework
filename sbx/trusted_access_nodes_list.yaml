@@ -4,3 +4,5 @@ organizations:
      #bad- > dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117077
    - name: EHT
      dlt_address: 0x93F3Ce68B3283D9C3f8d1C9a0845dCE0cDEcAB02
+   - name: IN2-TEST
+     dlt_address: 0x574Fc91D26AB8F9A8F220D50fa3048E057E92161
