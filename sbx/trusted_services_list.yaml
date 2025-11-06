@@ -129,17 +129,6 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeZSGaVHUTPxAYa4astKTTJgpiXMQsjg6Yn1WQiEfT8wAT"
-  - clientId: "did:key:zDnaecMc5YES917FMe7zJGgmpa4ttGYVcjBcVEc6o8FgfcKD7"
-    url: "https://dome.tddev.it"
-    redirectUris: ["https://dome.tddev.it/auth/vc/callback"]
-    scopes: ["openid_learcredential"]
-    clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["authorization_code", "refresh_token"]
-    postLogoutRedirectUris: []
-    requireAuthorizationConsent: false
-    requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaecMc5YES917FMe7zJGgmpa4ttGYVcjBcVEc6o8FgfcKD7"
-    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeupc9BmNtUg7obyrLScXwaWkYPR7ucyNXc5VykdG4vUMf"
     url: "https://deploy-preview-2--isbecatalog.netlify.app/"
     redirectUris: [ "https://deploy-preview-2--isbecatalog.netlify.app/auth/vc/callback" ]
@@ -182,13 +171,3 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeiyBeX6q6YQTKQt6N9G1itNpF3Cy9hKw4Xup7A5u9R1Dp"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"  
-  - clientId: "did:key:zDnaeWR3yGfGKH5w9xXiZkyvJGVHKeKrDeNdMDmFCTJ1rsRYQ"
-    redirectUris: [ ]
-    scopes: [ ]
-    clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["client_credentials"]
-    postLogoutRedirectUris: []
-    requireAuthorizationConsent: false
-    requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeWR3yGfGKH5w9xXiZkyvJGVHKeKrDeNdMDmFCTJ1rsRYQ"
-    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
