@@ -4,3 +4,5 @@ organizations:
      #bad- > dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117077
    - name: IN2-TEST
      dlt_address: 0x574Fc91D26AB8F9A8F220D50fa3048E057E92161
+   - name: DOME
+     dlt_address: 0x59e8Cb6486d198e85484bc2F6e0B3a1275A2823F
