@@ -65,3 +65,15 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaeUT1GkdTYN9VxZJpcra8gEzBzwNuQGpMddH9fyRQNMcdE"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaexyeXrF62P4h5PKPGW7kiFT2ydEChrtoNmyWSyqPC9PTw"
+    url: "https://dpas.egroup.hu/"
+    redirectUris: [ ]
+    scopes: [ ]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaexyeXrF62P4h5PKPGW7kiFT2ydEChrtoNmyWSyqPC9PTw"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+    
