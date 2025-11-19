@@ -160,7 +160,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaerQi587EqQLqEaj7qbxc46hzdjX2goNsmLTq1X6HqzzjP"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeiyBeX6q6YQTKQt6N9G1itNpF3Cy9hKw4Xup7A5u9R1Dp"
+  - clientId: "did:key:zDnaekngf5y8DJqAJvKWYhKP2talUceddc8d5ZVRyBv32Fyb3"
     url: "https://www.theplatforms.it/shop"
     redirectUris: [ ]
     scopes: [ ]
