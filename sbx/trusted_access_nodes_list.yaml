@@ -3,7 +3,7 @@ organizations:
      dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
      #bad- > dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117077
    - name: EHT
-     dlt_address: 0x44708c9Ca5E9ED46168C894F796ec6eEF725734D
+     dlt_address: 0x6908EE2fB94BAB033B56981bdc072CC4C1e9c393
    - name: IN2-TEST
      dlt_address: 0x574Fc91D26AB8F9A8F220D50fa3048E057E92161
    - name: DHUB
