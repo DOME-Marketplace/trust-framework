@@ -12,3 +12,5 @@ organizations:
      dlt_address: 0x398003c1F59FF95195cCB1700413394a39FeB88D
    - name: ED
      dlt_address: 0xa7bE26B0E91962FB33362C2093A1f3cA2fE8d387
+   - name: ENG
+     dlt_address: 0x98058736EF0662c62221bbf56FD87Eb1591E507D
