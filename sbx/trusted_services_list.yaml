@@ -190,7 +190,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaepNTqZthXqoxDkNRVYcaun1p8yZLQ5eej4T84fRvoV6FT"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaecMc5YES917FMe7zJGgmpa4ttGYVcjBcVEc6o8FgfcKD7"
+  - clientId: "did:key:zDnaeewmXrhYfLfg8sZ3bERhctiND1HrEMYkGekGzLDtKjSoD"
     url: "https://dome.tddev.it"
     redirectUris: ["https://dome.tddev.it/auth/vc/callback"]
     scopes: ["openid_learcredential"]
@@ -199,7 +199,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaecMc5YES917FMe7zJGgmpa4ttGYVcjBcVEc6o8FgfcKD7"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeewmXrhYfLfg8sZ3bERhctiND1HrEMYkGekGzLDtKjSoD"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeYH5eX6TkRV51nHksi9ZbAm3JSjtfbQYC41Vmrrwhxnis"
     redirectUris: [ ]
