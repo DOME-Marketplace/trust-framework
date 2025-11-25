@@ -161,6 +161,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaerQi587EqQLqEaj7qbxc46hzdjX2goNsmLTq1X6HqzzjP"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+    ## EHT
   - clientId: "did:key:zDnaeo3VoLUxQZFTMFmNxcSVbjkMBxeHTTX3KHuW2DhWoM737"
     redirectUris: [ ]
     scopes: [ ]
