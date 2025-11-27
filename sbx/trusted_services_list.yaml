@@ -194,8 +194,8 @@ clients:
     url: "https://dome.tddev.it"
     redirectUris: ["https://dome.tddev.it/auth/vc/callback"]
     scopes: ["openid_learcredential"]
-    clientAuthenticationMethods: ["authorization_code", "refresh_token", "client_secret_jwt"]
-    authorizationGrantTypes: ["client_credentials"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code", "refresh_token", "client_credentials"]
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
