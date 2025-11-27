@@ -8,8 +8,6 @@ organizations:
      dlt_address: 0x574Fc91D26AB8F9A8F220D50fa3048E057E92161
    - name: DHUB
      dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B31
-   - name: TeamDev
-     dlt_address: 0x2645A5691Caaa552B7f66E73A1dEaFCCB6b7106F
    - name: ED
      dlt_address: 0x8fDa79A0BE67A6D59210139b85c6B5771d0104b8
    - name: ENG
