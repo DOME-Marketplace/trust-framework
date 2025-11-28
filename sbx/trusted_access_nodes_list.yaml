@@ -10,7 +10,5 @@ organizations:
      dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B31
    - name: ED
      dlt_address: 0x8fDa79A0BE67A6D59210139b85c6B5771d0104b8
-   - name: ENG
-     dlt_address: 0x98058736EF0662c62221bbf56FD87Eb1591E507D
    - name: TeamDev
      dlt_address: 0x2645A5691Caaa552B7f66E73A1dEaFCCB6b7106F
