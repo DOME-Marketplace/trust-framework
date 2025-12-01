@@ -1,11 +1,12 @@
 organizations:
+   - name: IN2
+     dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117086
+     #bad- > dlt_address: 0xea375D05cfb3A723208C3Cce3B843D0Dd1117077
    - name: IN2-TEST
      dlt_address: 0x574Fc91D26AB8F9A8F220D50fa3048E057E92161
    - name: EHT
      dlt_address: 0x596dAD3C206b4DCFDb34C618EC16E80E8A79A314
    - name: DHUB
      dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B31
-   - name: ED
-     dlt_address: 0x8fDa79A0BE67A6D59210139b85c6B5771d0104b8
    - name: TeamDev
      dlt_address: 0x2645A5691Caaa552B7f66E73A1dEaFCCB6b7106F
