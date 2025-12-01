@@ -8,3 +8,5 @@ organizations:
      dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B31
    - name: TeamDev
      dlt_address: 0x2645A5691Caaa552B7f66E73A1dEaFCCB6b7106F
+   - name: EG
+     dlt_address: 0xb12b5A4846E7e0b04d0bB1b074FbD1746a31D253    
