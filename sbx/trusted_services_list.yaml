@@ -140,6 +140,18 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: false
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+    #Fabian payment system
+  - clientId: "did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
+    url: "https://dpas-sbx.egroup.hu/"
+    redirectUris: [ ]
+    scopes: [ ]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     #---------------------------------------------------------------------------- AN machines ------------------------------------------------------------------
     # LCL (IN2)
   - clientId: "did:key:zDnaerQi587EqQLqEaj7qbxc46hzdjX2goNsmLTq1X6HqzzjP"
