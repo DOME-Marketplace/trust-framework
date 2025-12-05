@@ -1,2 +1,5 @@
 organizations:
-
+  - name: DOME
+    dlt_address: 0x6CAe2e4907aD7fee38cC9eC2449595D2978E8Aa5
+  - name: QA
+    dlt_address: 0xd06CB807734b52C7BDAAD2ac73c7a25656d4f5Aa
