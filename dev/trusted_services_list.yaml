@@ -98,7 +98,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaecftcNofzseifUc1taiWzRiQeihWFdd2gr9tojz4gsrVS"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-    ----------------------------------------------------------------------
+    # ----------------------------------------------------------------------     ACCESS NODES ------------------------------------------------------------
     #DEV2
   - clientId: "did:key:zDnaeXJqrRKLndub9uQEaghYMYwRZ4eaVnXHywjtaVRL8vTBm"
     redirectUris: [ ]
