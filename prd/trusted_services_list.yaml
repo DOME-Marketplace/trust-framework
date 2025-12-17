@@ -74,6 +74,17 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
+    #PRD AN
+  - clientId: "did:key:zDnaeXzavjTD9NFhRNaQJgjdue3G184915XS94e4d9CoNQREc"
+    redirectUris: []
+    scopes: []
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaeXzavjTD9NFhRNaQJgjdue3G184915XS94e4d9CoNQREc"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaexyeXrF62P4h5PKPGW7kiFT2ydEChrtoNmyWSyqPC9PTw"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     
