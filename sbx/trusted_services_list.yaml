@@ -220,3 +220,14 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeo3VoLUxQZFTMFmNxcSVbjkMBxeHTTX3KHuW2DhWoM737"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+    # ELLIOT
+  - clientId: "did:key:zDnaehuJqs4VDMpeToZY3Yi6xLryGmDk5A8xNGHQCAUuM6wfZ"
+    redirectUris: [ ]
+    scopes: [ ]
+    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    authorizationGrantTypes: [ "client_credentials" ]
+    postLogoutRedirectUris: [ ]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaehuJqs4VDMpeToZY3Yi6xLryGmDk5A8xNGHQCAUuM6wfZ"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"

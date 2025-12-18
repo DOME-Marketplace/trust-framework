@@ -12,3 +12,5 @@ organizations:
      dlt_address: 0x2645A5691Caaa552B7f66E73A1dEaFCCB6b7106F
    - name: EHT
      dlt_address: 0x596dAD3C206b4DCFDb34C618EC16E80E8A79A314
+   - name: ELLIOT
+     dlt_address: 0xBa1c227137D91C559B04FBA4801f46Eb3f19DA1F
