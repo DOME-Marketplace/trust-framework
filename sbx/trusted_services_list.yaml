@@ -30,7 +30,7 @@ clients:
     postLogoutRedirectUris: ["https://dome-certification.dome-marketplace-sbx.org/"]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaemNefPAoE1tJmgkHMWMebngNyzFzuY1ktUaV6MUrDDbBp"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaep7iGodkmSEUD8uAsp4dhqcaxxrFQ3zgyANHD2brt7CgB"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaegSQTuyu6LaSqNepQYcuqjcRLDeA5AyjqPLtFhbyNxcrk"
     url: "https://dome-marketplace.dev.in2.es/"
