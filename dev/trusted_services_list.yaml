@@ -30,7 +30,7 @@ clients:
     postLogoutRedirectUris: [ "https://dome-marketplace-dev.org/" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeVWq9mxASnJtKm43AsHDSFSvxrazpuqgf9BVFA8edQHri"
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeVSrocQuTZahbBWM6yEHBX4GJgv4JpfdKECYYYABeCPX1"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeVWq9mxASnJtKm43AsHDSFSvxrazpuqgf9BVFA8edQHri"
     url: "https://dome-certification.dome-marketplace-dev2.org"
@@ -41,7 +41,7 @@ clients:
     postLogoutRedirectUris: ["https://dome-certification.dome-marketplace-dev2.org/"]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeyHsmMc4FUtvGcJCK6HyFEbFw1fBxRNdwjX5DvfBxy5hh"
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeVWq9mxASnJtKm43AsHDSFSvxrazpuqgf9BVFA8edQHri"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "dome-issuer"
     url: "https://issuer.dome-marketplace-dev2.org"
