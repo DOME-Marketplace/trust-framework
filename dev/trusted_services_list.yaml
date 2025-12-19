@@ -30,9 +30,9 @@ clients:
     postLogoutRedirectUris: [ "https://dome-marketplace-dev.org/" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeVSrocQuTZahbBWM6yEHBX4GJgv4JpfdKECYYYABeCPX1"
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaeVWq9mxASnJtKm43AsHDSFSvxrazpuqgf9BVFA8edQHri"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeyHsmMc4FUtvGcJCK6HyFEbFw1fBxRNdwjX5DvfBxy5hh"
+  - clientId: "did:key:zDnaeVWq9mxASnJtKm43AsHDSFSvxrazpuqgf9BVFA8edQHri"
     url: "https://dome-certification.dome-marketplace-dev2.org"
     redirectUris: ["https://dome-certification.dome-marketplace-dev2.org/auth/login"]
     scopes: ["openid_learcredential"]
