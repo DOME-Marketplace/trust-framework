@@ -3,14 +3,14 @@ clients:
   - clientId: 
     url: 
     redirectUris: []
-    scopes: []
-    clientAuthenticationMethods: []
-    authorizationGrantTypes: []
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code"]
     postLogoutRedirectUris: []
-    requireAuthorizationConsent: 
+    requireAuthorizationConsent: false 
     requireProofKey: 
     jwkSetUrl: 
-    tokenEndpointAuthenticationSigningAlgorithm: 
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
     url: "https://dome-marketplace-sbx.org"
     redirectUris: ["https://dome-marketplace-sbx.org/auth/vc/callback"]
