@@ -8,7 +8,7 @@ clients:
     authorizationGrantTypes: ["authorization_code"]
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false 
-    requireProofKey: 
+    requireProofKey: false
     jwkSetUrl: 
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
