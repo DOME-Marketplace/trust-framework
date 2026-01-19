@@ -119,6 +119,7 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeZSGaVHUTPxAYa4astKTTJgpiXMQsjg6Yn1WQiEfT8wAT"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeupc9BmNtUg7obyrLScXwaWkYPR7ucyNXc5VykdG4vUMf"
     url: "https://deploy-preview-2--isbecatalog.netlify.app/"
     redirectUris: [ "https://deploy-preview-2--isbecatalog.netlify.app/auth/vc/callback" ]
