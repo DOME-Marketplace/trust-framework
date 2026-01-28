@@ -1,8 +1,8 @@
 clients:
 # Trusted Registries Portal
   - clientId: "did:key:zDnaeUidLS8MbNQuHsnbd3xMvfk4baLZKeWiFV7UHAv9NsmUE"
-    url: "https://trust-framework-api.dome-marketplace-sbx.org"
-    redirectUris: ["https://trust-framework-api.dome-marketplace-sbx.org/validation/authorization"]
+    url: "https://trust-framework.dome-marketplace-sbx.org"
+    redirectUris: ["https://trust-framework.dome-marketplace-sbx.org/validation/authorization"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code"]
