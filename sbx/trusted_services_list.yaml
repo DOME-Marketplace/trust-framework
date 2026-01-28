@@ -1,6 +1,6 @@
 clients:
 # Trusted Registries Portal
-  - clientId: 
+  - clientId: "did:key:zDnaeUidLS8MbNQuHsnbd3xMvfk4baLZKeWiFV7UHAv9NsmUE"
     url: 
     redirectUris: []
     scopes: ["openid_learcredential"]
