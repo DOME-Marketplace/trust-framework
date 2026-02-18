@@ -10,7 +10,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaeTU39Wx9KXgmEwmfXsZSyEVxgCqwCVmoPyVQUTD8bhW8a"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
+  - clientId: "did:key:zDnaehmkEhoybLgRkVbKpAv47Vu81Rw5TmLUA5PrRKuWSbhxn"
     url: "https://dome-certification.dome-marketplace.eu"
     redirectUris: ["https://dome-certification.dome-marketplace.eu/auth/login"]
     scopes: ["openid_learcredential"]
@@ -19,7 +19,7 @@ clients:
     postLogoutRedirectUris: ["https://dome-certification.dome-marketplace.eu/"]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaemuFzGnbeSpxGUKmXMo354Nhvivfao3UjrNqLyJKX34gw"
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaehmkEhoybLgRkVbKpAv47Vu81Rw5TmLUA5PrRKuWSbhxn"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "dome-issuer"
     url: "https://issuer.dome-marketplace.eu"
