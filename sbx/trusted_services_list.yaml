@@ -88,7 +88,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeqFhw3mr6LNH8Wffyz3ZKBo2SA4hr1qbvpcUK2NRTcWLX"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeaznKYurujMD4by3ePnnR8n2VbN9qV6XTUVy8YqafT8Cg"
+  - clientId: "did:key:zDnaeXiDgjUU8SU83nKmiZVoeEnkxitZbT7ATnxjb5VPvToxw"
     url: "https://onboarding.dome-marketplace-sbx.org"
     redirectUris: []
     scopes: []
@@ -97,7 +97,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeaznKYurujMD4by3ePnnR8n2VbN9qV6XTUVy8YqafT8Cg"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeXiDgjUU8SU83nKmiZVoeEnkxitZbT7ATnxjb5VPvToxw"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
     url: "https://analytics.dome-marketplace-sbx.org"
