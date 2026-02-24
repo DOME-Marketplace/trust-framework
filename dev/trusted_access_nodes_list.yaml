@@ -1,5 +1,9 @@
 organizations:
   - name: DOME
-    dlt_address: 0x6CAe2e4907aD7fee38cC9eC2449595D2978E8Aa5
+    # dlt_address: 0x6CAe2e4907aD7fee38cC9eC2449595D2978E8Aa5 GOOD
+    # BAD:
+    dlt_address: 0x6CAe2e4907aD7fee38cC9eC2449595D2978E8Aa9
   - name: DHUB
-    dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B31
+    # dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B31 GOOD
+    # BAD:
+    dlt_address: 0x82E9bBeFf996B6f4806c31120EE8AB321a637B39
