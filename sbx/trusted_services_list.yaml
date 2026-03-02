@@ -172,7 +172,7 @@ clients:
     scopes: []
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["client_credentials"]
-    postLogoutRedirectUris: 
+    postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeajw3FmMgsGJxWggMLbXFgr7yoeTBKBsPAdErbLpSFLZt"
