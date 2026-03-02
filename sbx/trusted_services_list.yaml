@@ -120,6 +120,18 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeVTo4mgshQNbmBTWvZyQFS3o6gquPvZWgd93UeWiZg928"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  # Onboarding Jesus
+  - clientId: "did:key:zDnaeajw3FmMgsGJxWggMLbXFgr7yoeTBKBsPAdErbLpSFLZt"
+    url: "https://dome-marketplace-sbx.org"
+    redirectUris: ["https://tmf.sbx.evidenceledger.eu"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["authorization_code", "refresh_token"]
+    postLogoutRedirectUris: 
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeajw3FmMgsGJxWggMLbXFgr7yoeTBKBsPAdErbLpSFLZt"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     # outscale
   - clientId: "did:key:zDnaeZSGaVHUTPxAYa4astKTTJgpiXMQsjg6Yn1WQiEfT8wAT"
     url: "https://marketplace-sandbox-4-eu-west-2.outscale.com"
@@ -156,14 +168,14 @@ clients:
     #Fabian payment system
   - clientId: "did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
     url: "https://dpas-sbx.egroup.hu/"
-    redirectUris: [ ]
-    scopes: [ ]
+    redirectUris: []
+    scopes: []
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["client_credentials"]
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaexS1hEocz1R51ZXakcUPXWZSzkVEBJAEz9fHtxjfqZRhN"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     #---------------------------------------------------------------------------- AN machines ------------------------------------------------------------------
     # LCL (IN2)
