@@ -171,8 +171,8 @@ clients:
     redirectUris: []
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["client_credentials"]
-    postLogoutRedirectUris: []
+    authorizationGrantTypes: ["authorization_code", "refresh_token"]
+    postLogoutRedirectUris: 
     requireAuthorizationConsent: false
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeajw3FmMgsGJxWggMLbXFgr7yoeTBKBsPAdErbLpSFLZt"
