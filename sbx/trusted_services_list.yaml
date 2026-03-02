@@ -167,8 +167,8 @@ clients:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   # Onboarding Jesus
   - clientId: "did:key:zDnaeajw3FmMgsGJxWggMLbXFgr7yoeTBKBsPAdErbLpSFLZt"
-    url: "https://dome-marketplace-sbx.org"
-    redirectUris: ["https://tmf.sbx.evidenceledger.eu"]
+    url: "https://tmf.sbx.evidenceledger.eu"
+    redirectUris: []
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
     authorizationGrantTypes: ["authorization_code", "refresh_token"]
