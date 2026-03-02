@@ -169,9 +169,9 @@ clients:
   - clientId: "did:key:zDnaeajw3FmMgsGJxWggMLbXFgr7yoeTBKBsPAdErbLpSFLZt"
     url: "https://tmf.sbx.evidenceledger.eu"
     redirectUris: []
-    scopes: ["openid_learcredential"]
+    scopes: []
     clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["authorization_code", "refresh_token"]
+    authorizationGrantTypes: ["client_credentials"]
     postLogoutRedirectUris: 
     requireAuthorizationConsent: false
     requireProofKey: false
