@@ -288,6 +288,6 @@ clients:
     postLogoutRedirectUris: ["https://knowledgebase.dome-marketplace-sbx.org"]
     requireAuthorizationConsent: false
     requireProofKey: true
-    jwkSetUrl: []
+    jwkSetUrl:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
  
