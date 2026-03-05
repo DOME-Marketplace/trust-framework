@@ -278,3 +278,16 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeyDdcp7Uv9qzLADGHtYb5ZNv2iJ6WZV2n6aaKumXPPLno"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+    #Knowledgebase
+  - clientId: "knowledgebase-service"
+    url: "https://knowledgebase.dome-marketplace-sbx.org"
+    redirectUris: ["https://knowledgebase.dome-marketplace-sbx.org/oidc/callback"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["none"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris: ["https://knowledgebase.dome-marketplace-sbx.org"]
+    requireAuthorizationConsent: false
+    requireProofKey: true
+    jwkSetUrl: []
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+ 
