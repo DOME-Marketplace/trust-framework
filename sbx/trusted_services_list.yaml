@@ -290,4 +290,15 @@ clients:
     requireProofKey: true
     jwkSetUrl:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
- 
+    #Ticketing system
+  - clientId: "helpdesk-service"
+    url: "https://helpdesk.dome-marketplace-sbx.org"
+    redirectUris: [ "https://helpdesk.dome-marketplace-sbx.org/auth/openid_connect/callback" ]
+    scopes: [ "openid_learcredential" ]
+    clientAuthenticationMethods: [ "none" ]
+    authorizationGrantTypes: [ "authorization_code" ]
+    postLogoutRedirectUris: [ "https://helpdesk.dome-marketplace-sbx.org" ]
+    requireAuthorizationConsent: false
+    requireProofKey: true
+    jwkSetUrl:
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
