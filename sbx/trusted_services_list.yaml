@@ -289,7 +289,7 @@ clients:
     requireAuthorizationConsent: false
     requireProofKey: true
     jwkSetUrl:
-    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+    tokenEndpointAuthenticationSigningAlgorithm: "RS256"
     #Ticketing system
   - clientId: "helpdesk-service"
     url: "https://helpdesk.dome-marketplace-sbx.org"
