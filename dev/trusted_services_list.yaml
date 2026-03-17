@@ -98,7 +98,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaecftcNofzseifUc1taiWzRiQeihWFdd2gr9tojz4gsrVS"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaet3QSWSvr6mqtitJaVd1g5Jzkz72CJidY8nKtEn2V8GqP"
+  - clientId: "did:key:zDnaewP5WFhS7tSg1Gmk96gdskQkZsNXtmiedL32ddtjeaxCs"
     url: "https://dome-certification.dome-marketplace-dev.org"
     redirectUris: ["https://dome-certification.dome-marketplace-dev.org/auth/login"]
     scopes: ["openid_learcredential"]
@@ -107,7 +107,7 @@ clients:
     postLogoutRedirectUris: ["https://dome-certification.dome-marketplace-dev.org/"]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-dev.org/oidc/did/did:key:zDnaet3QSWSvr6mqtitJaVd1g5Jzkz72CJidY8nKtEn2V8GqP"
+    jwkSetUrl: "https://verifier.dome-marketplace-dev.org/oidc/did/did:key:zDnaewP5WFhS7tSg1Gmk96gdskQkZsNXtmiedL32ddtjeaxCs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     # ----------------------------------------------------------------------     ACCESS NODES ------------------------------------------------------------
     #DEV2
