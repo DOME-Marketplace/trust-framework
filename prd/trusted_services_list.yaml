@@ -54,7 +54,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaejKUu1x7UjbdWQT5PwEmhG8tA536YjkCSyAghSFSXfpKt"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaeUT1GkdTYN9VxZJpcra8gEzBzwNuQGpMddH9fyRQNMcdE"
+  - clientId: "did:key:zDnaew4hsC9GYTi6XjqPRRLU6WRdwdGWtbosHxkGs5uDf7sq3"
     url: "https://issuer.dome-marketplace.eu"
     redirectUris: []
     scopes: []
@@ -63,7 +63,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaeUT1GkdTYN9VxZJpcra8gEzBzwNuQGpMddH9fyRQNMcdE"
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaew4hsC9GYTi6XjqPRRLU6WRdwdGWtbosHxkGs5uDf7sq3"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaexyeXrF62P4h5PKPGW7kiFT2ydEChrtoNmyWSyqPC9PTw"
     url: "https://dpas.egroup.hu/"
