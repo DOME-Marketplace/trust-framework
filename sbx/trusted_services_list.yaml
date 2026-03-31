@@ -316,3 +316,15 @@ clients:
     requireProofKey: true
     jwkSetUrl:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+
+    #TOP-IX
+  - clientId: "did:key:zDnaeWQmfTijZnSYD34b4KoqGshViYEjCfbcK6FLapJH7A5YL"
+    redirectUris : []
+    scopes : []
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris : []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeWQmfTijZnSYD34b4KoqGshViYEjCfbcK6FLapJH7A5YL"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
