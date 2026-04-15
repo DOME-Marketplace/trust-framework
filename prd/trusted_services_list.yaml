@@ -32,8 +32,8 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://keycloak.dome-marketplace.eu/realms/dome-issuer/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaehBC97ZSEc6cwHLXXr6Zfrj1Tv9bxtsuFGPkxcXMj6FaZ"
-    url: "https://onboarding.dome-marketplace.eu"
+  - clientId: "did:key:zDnaemGYhmaFJCk3PbwQS9GWtxaiMLe1cyYin3PpySHVt1Ztt"
+    url: "https://onboard.dome-marketplace.eu"
     redirectUris: []
     scopes: []
     clientAuthenticationMethods: ["client_secret_jwt"]
@@ -41,7 +41,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaehBC97ZSEc6cwHLXXr6Zfrj1Tv9bxtsuFGPkxcXMj6FaZ"
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaemGYhmaFJCk3PbwQS9GWtxaiMLe1cyYin3PpySHVt1Ztt"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaejKUu1x7UjbdWQT5PwEmhG8tA536YjkCSyAghSFSXfpKt"
     url: "http://payment-scheduler-svc.billing.svc.cluster.local:8080"
