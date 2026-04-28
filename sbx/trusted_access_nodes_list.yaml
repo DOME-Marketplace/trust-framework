@@ -7,7 +7,7 @@ organizations:
    - name: DOME
      dlt_address: 0x59e8Cb6486d198e85484bc2F6e0B3a1275A2823F
    - name: DHUB
-     dlt_address: 0xb83BD3899877170618Cd44d77abdeA72188bA361
+     dlt_address: 0x64F339A5BE5a4E943D7F0EBFc1b287e016b0aB6b
    - name: TeamDev
      dlt_address: 0x2645A5691Caaa552B7f66E73A1dEaFCCB6b7106F
    - name: EHT
