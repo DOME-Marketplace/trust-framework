@@ -77,3 +77,15 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaexyeXrF62P4h5PKPGW7kiFT2ydEChrtoNmyWSyqPC9PTw"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     
+  # outscale
+  - clientId: "did:key:zDnaey7RrnEsNuDCyUyChAeiBSoAgagxAb3UmCDYXwKnmdARZ"
+    url: "https://marketplace.outscale.com/"
+    redirectUris: []
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["client_secret_jwt"]
+    authorizationGrantTypes: ["client_credentials"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaey7RrnEsNuDCyUyChAeiBSoAgagxAb3UmCDYXwKnmdARZ"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
