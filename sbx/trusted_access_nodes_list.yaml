@@ -5,7 +5,7 @@ organizations:
    - name: IN2-TEST
      dlt_address: 0x574Fc91D26AB8F9A8F220D50fa3048E057E92161
    - name: DOME
-     dlt_address: 0x59e8Cb6486d198e85484bc2F6e0B3a1275A2823F
+     dlt_address: 0xCAa618f3883ac495af4508dB4B4B1BEa7634DF73
    - name: DHUB
      dlt_address: 0x64F339A5BE5a4E943D7F0EBFc1b287e016b0aB6b
    - name: TeamDev

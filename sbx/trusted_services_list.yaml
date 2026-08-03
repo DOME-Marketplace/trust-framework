@@ -201,7 +201,7 @@ clients:
     jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeVXPuangcFS5danmBy2t1nebjoiVembkkVzHxKENu1SQc"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     #SBX
-  - clientId: "did:key:zDnaev2NrT2aiJN7CE8hwMuahRJccCYLaWwCGyqDaB5C81FQQ"
+  - clientId: "did:key:zDnaeZ3sytoFpuy2P7W9gzdWCcb6fMMv3nYsbT2djJEzT1ZsM"
     redirectUris: []
     scopes: []
     clientAuthenticationMethods: [ "client_secret_jwt" ]
@@ -209,7 +209,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaev2NrT2aiJN7CE8hwMuahRJccCYLaWwCGyqDaB5C81FQQ"
+    jwkSetUrl: "https://verifier.dome-marketplace-sbx.org/oidc/did/did:key:zDnaeZ3sytoFpuy2P7W9gzdWCcb6fMMv3nYsbT2djJEzT1ZsM"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
     # DHUB
   - clientId: "did:key:zDnaearMcMUuERLa6eiDjW1psUxZNaHAoL1Bk1X3WrRBBKFJc"
