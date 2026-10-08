@@ -43,7 +43,7 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaemGYhmaFJCk3PbwQS9GWtxaiMLe1cyYin3PpySHVt1Ztt"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
-  - clientId: "did:key:zDnaejKUu1x7UjbdWQT5PwEmhG8tA536YjkCSyAghSFSXfpKt"
+  - clientId: "did:key:zDnaearMcMUuERLa6eiDjW1psUxZNaHAoL1Bk1X3WrRBBKFJc"
     url: "http://payment-scheduler-svc.billing.svc.cluster.local:8080"
     redirectUris: []
     scopes: []
@@ -52,7 +52,7 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaejKUu1x7UjbdWQT5PwEmhG8tA536YjkCSyAghSFSXfpKt"
+    jwkSetUrl: "https://verifier.dome-marketplace.eu/oidc/did/did:key:zDnaearMcMUuERLa6eiDjW1psUxZNaHAoL1Bk1X3WrRBBKFJc"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaew4hsC9GYTi6XjqPRRLU6WRdwdGWtbosHxkGs5uDf7sq3"
     url: "https://issuer.dome-marketplace.eu"
