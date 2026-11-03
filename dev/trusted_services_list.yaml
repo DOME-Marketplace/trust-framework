@@ -120,6 +120,16 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://keycloak.dome-marketplace-dev.org/realms/dome-issuer-dev/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"
+    url: "https://analytics.dome-marketplace-dev2.org"
+    redirectUris: ["https://analytics.dome-marketplace-dev2.org/oauth-authorized/dome"]
+    scopes: ["openid_learcredential"]
+    clientAuthenticationMethods: ["none"]
+    authorizationGrantTypes: ["authorization_code"]
+    postLogoutRedirectUris: []
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://verifier.dome-marketplace-dev2.org/oidc/did/did:key:zDnaer6wstrAhZxM5ej7fvQbnf9aP3RdojhXEao431SMrN3Lb"  
     # ----------------------------------------------------------------------     ACCESS NODES ------------------------------------------------------------
     #DEV2
   - clientId: "did:key:zDnaeXJqrRKLndub9uQEaghYMYwRZ4eaVnXHywjtaVRL8vTBm"
